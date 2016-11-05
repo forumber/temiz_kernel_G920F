@@ -54,6 +54,7 @@ ONLY_DT()
 
 CLEAN_KERNEL()
 {
+    rm -f dt.img
     make clean
     make distclean
     make mrproper
