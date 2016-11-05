@@ -2920,23 +2920,23 @@
 
 		trigger_level_table {
 			trigger_level_0 {
-				temp = <75>;
-				enable = <1>;
-			};
-			trigger_level_1 {
-				temp = <80>;
-				enable = <1>;
-			};
-			trigger_level_2 {
 				temp = <85>;
 				enable = <1>;
 			};
-			trigger_level_3 {
+			trigger_level_1 {
 				temp = <90>;
 				enable = <1>;
 			};
-			trigger_level_4 {
+			trigger_level_2 {
 				temp = <95>;
+				enable = <1>;
+			};
+			trigger_level_3 {
+				temp = <97>;
+				enable = <1>;
+			};
+			trigger_level_4 {
+				temp = <98>;
 				enable = <1>;
 			};
 			trigger_level_5 {
@@ -2957,27 +2957,27 @@
 
 		throttle_table {
 			throttle_tab_0 {
-				temp = <75>;
+				temp = <85>;
 				freq_max_cluster1 = <1704000>;
 				freq_max_cluster0 = <1500000>;
 			};
 			throttle_tab_1 {
-				temp = <80>;
+				temp = <90>;
 				freq_max_cluster1 = <1300000>;
 				freq_max_cluster0 = <1400000>;
 			};
 			throttle_tab_2 {
-				temp = <85>;
+				temp = <95>;
 				freq_max_cluster1 = <800000>;
 				freq_max_cluster0 = <1200000>;
 			};
 			throttle_tab_3 {
-				temp = <90>;
+				temp = <97>;
 				freq_max_cluster1 = <800000>;
 				freq_max_cluster0 = <1000000>;
 			};
 			throttle_tab_4 {
-				temp = <95>;
+				temp = <98>;
 				freq_max_cluster1 = <800000>;
 				freq_max_cluster0 = <400000>;
 			};
