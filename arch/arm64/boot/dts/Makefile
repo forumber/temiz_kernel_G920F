@@ -7,6 +7,16 @@ dtb-$(CONFIG_MACH_ESPRESSO7420) += exynos7420-espresso7420.dtb exynos7420-univer
 dtb-$(CONFIG_MACH_UNIVERSAL5433) += exynos5433-universal5433_rev02.dtb exynos5433-universal5433.dtb
 dtb-$(CONFIG_MACH_SMDK7580) += exynos7580-smdk7580.dtb
 dtb-$(CONFIG_MACH_UNIVERSAL7580) += exynos7580-universal7580.dtb
+dtb-$(CONFIG_MACH_UNIVERSAL7420) += exynos7420-zeroflte_eur_open_00.dtb \
+                                    exynos7420-zeroflte_eur_open_01.dtb \
+                                    exynos7420-zeroflte_eur_open_02.dtb \
+                                    exynos7420-zeroflte_eur_open_03.dtb \
+                                    exynos7420-zeroflte_eur_open_04.dtb \
+                                    exynos7420-zeroflte_eur_open_05.dtb \
+                                    exynos7420-zeroflte_eur_open_06.dtb \
+                                    exynos7420-zeroflte_eur_open_07.dtb \
+                                    exynos7420-zeroflte_eur_open_ds_00.dtb
+
 targets += dtbs
 
 DTB_NAMES := $(subst $\",,$(CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES))
